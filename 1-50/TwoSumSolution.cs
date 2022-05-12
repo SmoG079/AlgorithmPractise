@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm
+namespace Algorithm._1_50
 {
     public class TwoSumSolution : Singleton<TwoSumSolution>
     {

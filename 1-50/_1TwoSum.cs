@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Algorithm._1_50
 {
-    public class TwoSumSolution : Singleton<TwoSumSolution>
+    public class _1TwoSumSolution : Singleton<_1TwoSumSolution>
     {
         public int[] TwoSum(int[] nums, int target)
         {

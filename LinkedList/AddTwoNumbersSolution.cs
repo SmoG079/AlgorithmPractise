@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm._1_50
+namespace Algorithm.LinkedList
 {
     public class AddTwoNumbersSolution : Singleton<AddTwoNumbersSolution>
     {

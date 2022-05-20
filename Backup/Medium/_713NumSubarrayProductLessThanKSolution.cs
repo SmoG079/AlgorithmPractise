@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm._1_50
+namespace Algorithm.Backup.Medium
 {
     public class _713NumSubarrayProductLessThanKSolution : Singleton<_713NumSubarrayProductLessThanKSolution>
     {

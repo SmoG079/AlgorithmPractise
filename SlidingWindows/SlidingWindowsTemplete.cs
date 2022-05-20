@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Algorithm.SlidingWindows
-{/// <summary>
-/// 基于LongestOnes的SlidingWindows模板
-/// </summary>
+{
+    /// <summary>
+    /// 基于LongestOnes的SlidingWindows模板
+    /// </summary>
     public class SlidingWindowsTemplete
     {
         public int SlidingWindows(int[] A, int K)
@@ -19,7 +20,7 @@ namespace Algorithm.SlidingWindows
                 if (zeroCounter > K)
                 {
                     left++;
-                    if (A[left - 1] == 0) zeroCounter++;
+                    if (A[left - 1] == 0) zeroCounter--;
                 }
                 right++;
             }

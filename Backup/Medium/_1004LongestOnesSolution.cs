@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm._1_50
+namespace Algorithm.Backup.Medium
 {
     public class _1004LongestOnesSolution : Singleton<_1004LongestOnesSolution>
     {

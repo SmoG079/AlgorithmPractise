@@ -3,6 +3,8 @@ using Algorithm.HashTable;
 using Algorithm.LinkedList;
 using Algorithm.SlidingWindows;
 using Algorithm.Search;
+using Algorithm.DFS;
+using Algorithm.BFS;
 
 
 
@@ -20,6 +22,9 @@ using Algorithm.Search;
 
 //FindMedianSortedArraysSolution.Instance.FindMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 });
 
+//LargestValuesSolution.Instance.LargestValues(new TreeNode (1,null,null));
+
+//FindBottomLeftValueSolution.Instance.FindBottomLeftValue(new TreeNode(1, new TreeNode(2,null,null), new TreeNode(1,null,null)));
 
 
 

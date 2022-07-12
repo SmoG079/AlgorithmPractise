@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Algorithm\\Algorithm.csproj",
+      "projectUniqueName": "E:\\AlgorithmPractise\\Algorithm.csproj",
       "projectName": "Algorithm",
-      "projectPath": "D:\\Algorithm\\Algorithm.csproj",
+      "projectPath": "E:\\AlgorithmPractise\\Algorithm.csproj",
       "packagesPath": "C:\\Users\\liujunjie\\.nuget\\packages\\",
-      "outputPath": "D:\\Algorithm\\obj\\",
+      "outputPath": "E:\\AlgorithmPractise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,9 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://dev.nuget.beisencorp.com/nuget": {},
-        "http://devhistory.nuget.beisencorp.com/nuget": {},
-        "http://devthird.nuget.beisencorp.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

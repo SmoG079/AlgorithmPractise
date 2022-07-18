@@ -1,11 +1,4 @@
-﻿using Algorithm.Helper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Backup.Medium
+﻿namespace Algorithm.Backup.Medium
 {
     public class _485FindMaxConsecutiveOnesSolution : Singleton<_485FindMaxConsecutiveOnesSolution>
     {

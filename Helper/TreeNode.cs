@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Helper
+﻿namespace Algorithm.Helper
 {
     public class TreeNode
     {
@@ -18,22 +12,5 @@ namespace Algorithm.Helper
             this.right = right;
         }
 
-        public TreeNode CreateBinaryTree(LinkedList<int> inputList)
-        {
-            TreeNode node = null;
-            if (inputList == null || inputList.Count <= 0)
-            {
-                return null;
-            }
-            int data = inputList.RemoveFirstEx();
-            if (data != null)
-            {
-                node = new TreeNode(data);
-                node.left = CreateBinaryTree(inputList);
-                node.right = CreateBinaryTree(inputList);
-            }
-            return node;
-
-        }
     }
 }

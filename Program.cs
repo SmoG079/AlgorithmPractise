@@ -1,10 +1,11 @@
-﻿using Algorithm.Helper;
-using Algorithm.HashTable;
-using Algorithm.LinkedList;
-using Algorithm.SlidingWindows;
-using Algorithm.Search;
-using Algorithm.DFS;
-using Algorithm.BFS;
+﻿
+global using global::Algorithm.Helper;
+global using global::Algorithm.HashTable;
+global using global::Algorithm.LinkedList;
+global using global::Algorithm.SlidingWindows;
+global using global::Algorithm.DFS;
+global using global::Algorithm.BFS;
+global using global::Algorithm.Search;
 
 
 public class Program
@@ -29,6 +30,9 @@ public class Program
 
         //FindBottomLeftValueSolution.Instance.FindBottomLeftValue(new TreeNode(1, new TreeNode(2,null,null), new TreeNode(1,null,null)));
 
+        //BinarySearchSolution.Instance.BinarySearch(new int[] { -1, 0, 3, 5, 9, 12 },9);
+
+        FirstBadVersionSolution.Instance.FirstBadVersion(1);
     }
 }
 

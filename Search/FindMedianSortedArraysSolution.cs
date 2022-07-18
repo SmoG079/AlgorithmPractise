@@ -1,11 +1,4 @@
-﻿using Algorithm.Helper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm.Search
+﻿namespace Algorithm.Search
 {
     public class FindMedianSortedArraysSolution : Singleton<FindMedianSortedArraysSolution>
     {
@@ -43,7 +36,7 @@ namespace Algorithm.Search
 
             int length1 = nums1.Length, length2 = nums2.Length;
             int index1 = 0, index2 = 0;
-            int kthElement = 0;
+            //int kthElement = 0;
 
             while (true)
             {

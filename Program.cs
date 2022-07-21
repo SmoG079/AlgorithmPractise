@@ -6,7 +6,7 @@ global using global::Algorithm.SlidingWindows;
 global using global::Algorithm.DFS;
 global using global::Algorithm.BFS;
 global using global::Algorithm.Search;
-
+using Algorithm.DoublePointer;
 
 public class Program
 {
@@ -32,7 +32,13 @@ public class Program
 
         //BinarySearchSolution.Instance.BinarySearch(new int[] { -1, 0, 3, 5, 9, 12 },9);
 
-        FirstBadVersionSolution.Instance.FirstBadVersion(1);
+        //FirstBadVersionSolution.Instance.FirstBadVersion(1);
+
+        //SearchInsertSolution.Instance.SearchInsert(new int[] { 1, 3, 5, 6 }, 5);
+
+        //SortedSquaresSolution.Instance.SortedSquares(new int[] { -4, -1, 0, 3, 10 });
+
+
     }
 }
 

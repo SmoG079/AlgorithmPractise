@@ -1,4 +1,4 @@
-﻿namespace Algorithm.Search
+﻿namespace Algorithm.Backup.Easy
 {
     public class _704BinarySearchSolution : Singleton<_704BinarySearchSolution>
     {

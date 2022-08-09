@@ -7,6 +7,7 @@ global using global::Algorithm.DFS;
 global using global::Algorithm.BFS;
 global using global::Algorithm.Search;
 using Algorithm.DoublePointer;
+using Algorithm.Backup.Hard;
 
 public class Program
 {
@@ -38,7 +39,9 @@ public class Program
 
         //SortedSquaresSolution.Instance.SortedSquares(new int[] { -4, -1, 0, 3, 10 });
 
+        //MeetingRoomSolution.Instance.meetingRoomIII(new int[][] { new int[] { 1, 2 }, new int[] { 4, 5 }, new int[] { 8, 10 } }, 1,new int[][] { new int[] { 2, 3 }, new int[] { 3, 4 } });
 
+        MoveZeroesSolution.Instance.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
     }
 }
 

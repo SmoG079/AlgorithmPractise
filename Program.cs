@@ -41,7 +41,9 @@ public class Program
 
         //MeetingRoomSolution.Instance.meetingRoomIII(new int[][] { new int[] { 1, 2 }, new int[] { 4, 5 }, new int[] { 8, 10 } }, 1,new int[][] { new int[] { 2, 3 }, new int[] { 3, 4 } });
 
-        MoveZeroesSolution.Instance.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
+        //MoveZeroesSolution.Instance.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
+
+
     }
 }
 

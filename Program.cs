@@ -8,6 +8,7 @@ global using global::Algorithm.BFS;
 global using global::Algorithm.Search;
 using Algorithm.DoublePointer;
 using Algorithm.Backup.Hard;
+using Algorithm.Sword2Offer;
 
 public class Program
 {
@@ -43,6 +44,12 @@ public class Program
 
         //MoveZeroesSolution.Instance.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
 
+
+        //S2O09_CQueue.Instance.invoke();
+        //S2O30_MinStack.Instance.invoke();
+        //S2O06_ReversePrint.Instance.invoke();
+        //S2O24_ReverseList.Instance.invoke();
+        S2O35_CopyRandomList.Instance.invoke();
 
     }
 }

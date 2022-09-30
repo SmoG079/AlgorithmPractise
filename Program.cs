@@ -49,7 +49,8 @@ public class Program
         //S2O30_MinStack.Instance.invoke();
         //S2O06_ReversePrint.Instance.invoke();
         //S2O24_ReverseList.Instance.invoke();
-        S2O35_CopyRandomList.Instance.invoke();
+        //S2O35_CopyRandomList.Instance.invoke();
+        S2O53_1_Search.Instance.Search(new int[] { 2,2 }, 2);
 
     }
 }

@@ -8,6 +8,9 @@ namespace Algorithm.Sword2Offer
 {
     public class S2O35_CopyRandomList : Singleton<S2O35_CopyRandomList>
     {
+        public void invoke() {
+            //CopyRandomList(new Node());
+        }
         public Node CopyRandomList(Node head)
         {
             if (head == null)
